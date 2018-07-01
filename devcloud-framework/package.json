@@ -1,0 +1,51 @@
+{
+  "name": "devcloud-framework",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vue-wait": "^1.2.2",
+    "vuex-api": "^0.1.7",
+    "vuex-rest-api": "^2.7.0",
+    "axios": "^0.18.0",
+    "axios-cookiejar-support": "^0.3.5",
+    "dayjs": "^1.6.10",
+    "echarts": "^4.1.0",
+    "iview": "^2.14.3",
+    "lodash": "^4.17.10",
+    "register-service-worker": "^1.0.0",
+    "tough-cookie": "^2.4.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.3",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0-rc.3",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.3",
+    "@vue/cli-plugin-pwa": "^3.0.0-rc.3",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.3",
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.3",
+    "@vue/test-utils": "^1.0.0-beta.16",
+    "axios-mock-adapter": "^1.15.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "babel-plugin-lodash": "^3.3.4",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
